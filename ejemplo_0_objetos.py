@@ -43,7 +43,7 @@ alumno  = Persona("Severus")
 alumno.saludar(profe)
 profe.saludar(alumno)
 
-profe.cambiar_nombre("Harry Potter")
+profe.cambiar_nombre(Harry Potter)
 
 
 
