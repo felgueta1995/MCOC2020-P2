@@ -28,11 +28,6 @@ class Persona(object):
 		otro = otra_persona.decir_nombre()
 		print(f"{quien} dice: Hola {otro}.")
 
-	def intercambiar_nombres(self,otra_persona):
-		quien=self.decir_nombre()
-		otro=otra_persona.decir_nombre()
-		self.cambiar_nombre(otro)
-		otra_persona.cambiar_nombre(quien)
 
 profe = Persona("profe")
 alumno = Persona("alumno")
@@ -40,19 +35,18 @@ alumno = Persona("alumno")
 profe = Persona("Albus")
 alumno  = Persona("Severus")
 
-alumno.saludar(profe)
-profe.saludar(alumno)
 
+<<<<<<< HEAD
 profe.cambiar_nombre("Harry Potter")
 
 
+=======
+>>>>>>> parent of 1a9d32b... Revert "Revert "Updated cambiar nombre and intercambiar nombres""
 
+profe.saludar(alumno)
 alumno.saludar(profe)
 
-profe.intercambiar_nombres(alumno)
 
-print("El profesor es: {}".format(profe.decir_nombre()))
-print("El alumno es: {}".format(alumno.decir_nombre()))
 
 
 

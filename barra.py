@@ -30,7 +30,8 @@ class Barra(object):
 		xj : Arreglo numpy de dimenson (3,) con coordenadas del nodo j
 		"""
 		"""Implementar"""
-		return 
+		L=np.sqrt((xi[0]-xj[1])**2+(xi[1]-xj[1])**2)
+		return L
 
 	def calcular_peso(self, reticulado):
 		"""Devuelve el largo de la barra. 
