@@ -11,7 +11,6 @@
 
 
 
-
 class Persona(object):
 	"""Ayuda para esta"""
 	def __init__(self, nombre):  #constructor
@@ -44,7 +43,9 @@ alumno  = Persona("Severus")
 alumno.saludar(profe)
 profe.saludar(alumno)
 
-profe.cambiar_nombre("Albus Percival Wulfric Brian")
+profe.cambiar_nombre("Harry Potter")
+
+
 
 alumno.saludar(profe)
 
